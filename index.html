@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema de Tickets</title>
 
-    <!-- Bootstrap 5 CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="css/styles.css">
@@ -14,12 +13,11 @@
 <body class="bg-light">
 
     <header class="bg-primary text-white p-4 text-center">
-        <h1>Sistema de Tickets — Unidad 3</h1>
+        <h1>Sistema de Tickets — Unidad 3 - Santiago Estrella Reyes</h1>
     </header>
 
     <main class="container my-4">
 
-        <!-- Formulario -->
         <section class="card p-4 shadow">
             <h3>Crear Ticket</h3>
 
@@ -40,8 +38,8 @@
                     <label>Prioridad</label>
                     <select id="prioridad" class="form-select">
                         <option value="normal">Normal</option>
-                        <option value="alta">Alta</option>
-                        <option value="baja">Baja</option>
+                        <option value="alta">Importante</option>
+                        <option value="baja">No importante</option>
                     </select>
                 </div>
 
@@ -55,22 +53,20 @@
             </form>
         </section>
 
-        <!-- Contadores -->
         <section class="mt-4">
             <h4>Estadísticas</h4>
             <p><strong>Tickets urgentes:</strong> <span id="urgentes">0</span></p>
         </section>
 
-        <!-- Lista de Tickets -->
         <section class="mt-4">
-            <h3>Lista de Tickets</h3>
+            <h3>PENDIENTES</h3>
             <div id="listaTickets" class="mt-3"></div>
         </section>
 
     </main>
 
     <footer class="bg-dark text-white text-center p-3">
-        <p>Práctica Unidad 3 — Programación del Lado del Cliente</p>
+        <p>Práctica Unidad 3 — Creada por Santiago Estrella Reyes</p>
     </footer>
 
     <script src="js/app.js"></script>
